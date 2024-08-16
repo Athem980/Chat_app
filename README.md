@@ -42,9 +42,8 @@ https://chat-app-pbvl.onrender.com
 Create a .env file in the root directory and add the following:
 
    ```bash
-     PORT=8000
-     MONGO_DB_URI=mongodb+srv://rahulmehta2001:cdocKf7ILFCXzV7D@cluster0.ar3kcre.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-     JWT_SECRET=6bakZ/DmmfcwniFRdsIboLE0zmPYcth6MkmiMrowoiQ=
+     MONGO_DB_URI=<your-mongodb-uri>
+     JWT_SECRET=<your-jwt-secret>
    ```
 
 4. Run the server:
